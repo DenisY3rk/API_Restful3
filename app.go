@@ -7,10 +7,10 @@ import (
 
 	"gopkg.in/mgo.v2/bson"
 
+	. "github.com/DenisY3rk/API_Restful3/config"
+	. "github.com/DenisY3rk/API_Restful3/dao"
+	. "github.com/DenisY3rk/API_Restful3/models"
 	"github.com/gorilla/mux"
-	. "github.com/mlabouardy/movies-restapi/config"
-	. "github.com/mlabouardy/movies-restapi/dao"
-	. "github.com/mlabouardy/movies-restapi/models"
 )
 
 var config = Config{}
