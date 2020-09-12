@@ -1,2 +1,2 @@
-server= "localhost:3000"
-database= "movies_db"
+server= 'localhost'
+database= 'movies_db'
